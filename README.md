@@ -1,16 +1,50 @@
-# React + Vite
+🪨📃✂️ Rock Paper Scissors
+A sleek, interactive Rock Paper Scissors game built with React 18, featuring a best-of-5 round system, real-time score tracking, and a polished dark glassmorphism UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo
 
-Currently, two official plugins are available:
+https://rock-paper-scissors-zeta-murex.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🎮 Best-of-5 Round System — Game auto-ends after 5 rounds with a final result alert
+📊 Live Score Tracking — Real-time win/loss/tie counters for both player and computer
+🤖 Randomised Computer AI — Computer picks moves using a weighted random generator
+🔄 Reset Anytime — Full game reset with a single click
+💅 Glassmorphism UI — Dark-themed design with blur effects, smooth hover animations, and gradient typography
+📱 Responsive Design — Works seamlessly on all screen sizes
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+TechnologyUsageReact 18UI & Component ArchitectureJavaScript (ES6+)Game LogicReact Hooks (useState, useEffect)State ManagementCSS3Glassmorphism styling, Flexbox, AnimationsViteBuild Tool & Dev Server
+
+Installation
+bash# Clone the repository
+git clone https://github.com/your-username/rock-paper-scissors.git
+
+# Navigate into the project
+cd rock-paper-scissors
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+Then open http://localhost:5173 in your browser.
+
+🧠 How It Works
+
+Player selects 🪨 Rock, 📃 Paper, or ✂️ Scissors
+Computer generates a random move
+Winner is determined by classic RPS rules
+Scores update in real-time after each round
+After 5 rounds, a popup declares the overall winner
+Game resets automatically for a new match
+
+
+📁 Project Structure
+src/
+├── App.jsx        # Main game logic & UI
+├── App.css        # Styling & animations
+└── main.jsx       # React DOM entry point
